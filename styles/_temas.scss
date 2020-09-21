@@ -1,0 +1,57 @@
+#topics__title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+    padding-left: 1.5rem;
+    margin-top: 3rem;
+    font-weight: 400;
+}
+#topics__icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+#topics__icons .ico {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 3.25rem;
+    padding: 0 6px;
+}
+#topics__icons .ico .epigrafe {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+#topics__icons .ico .epigrafe .block {
+    display: block;
+  }
+
+  @media screen and (min-width: 768px) {
+      #topics__title {
+        font-size: 48px;
+        color: #060A24;
+        letter-spacing: 0;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 400;
+        padding-left: 11rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+      }
+      #topics__icons {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+          width: 80%;
+      }
+  }

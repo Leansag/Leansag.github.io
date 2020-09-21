@@ -1,0 +1,68 @@
+#news {
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+#news #news__title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 42px;
+    font-weight: 400;
+}
+#news #news__title span {
+    display: block;
+  }
+#news #news__button {
+    background: #00F3BB;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    width: 93vw;
+    height: 3rem;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    margin-top: 3rem;
+    margin-left: 0.8rem;
+    padding: 0.8rem;
+    border: none;
+}
+#news #news__button:hover {
+    background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
+    color: #ffffff;
+    cursor: pointer;
+}        
+
+@media screen and (min-width: 768px) {
+    #news {
+    clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    margin-top: 0.5rem;
+  }   
+
+   #news #news__title {
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 300;
+  }
+    #news #news__title span {
+    display: inline;
+  }
+  #news #news__button {
+    margin: 0 auto;
+    margin-top: 4rem;
+    font-size: 18px;
+    max-width: 18rem;
+  }
+}  

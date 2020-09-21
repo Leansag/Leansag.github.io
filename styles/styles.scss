@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap'); 
+
+@import "menu";
+
+@import "hero";
+
+@import "episodios";
+
+@import "historia";
+
+@import "invitados";
+
+@import "temas";
+
+@import "novedades";
+
+@import "footer";
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
